@@ -1,7 +1,7 @@
 const {poolList} = require('../servicios/dbConection');
 
 listArea = async (res) => {
-    console.log('ko')
+    //console.log('ko')
     const result = await poolList(
         `SELECT IdArea, areas
             FROM Area
